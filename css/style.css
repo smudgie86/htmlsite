@@ -1,27 +1,54 @@
-/* Basics */
+/* Basics 
 .container {
   max-width: 1100px;
   margin: 0 auto;
   overflow: auto;
   padding: 0 40px;
+}*/
+
+
+.navbar-brand{
+    width: 150px;
+    height: 150px;
+    background: url("../img/logo.svg") no-repeat center;
+    background-size: contain;
+}
+
+.nav-link{
+    margin: 0 7px;
+}
+
+.nav-link h3{
+    color: blue;
+}
+
+.nav-item a{
+  font-size: 1.5rem;
+  font-weight: bold;
+    color: blue !important;
+}
+
+.donate{
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 25px;
 }
 
 .header{
-    margin-top: 70px;
-}
-
-.header img{
-    position: relative;
+    margin-top: 150px;
+    background: url("../img/s02.jpg") no-repeat center;
+    background-size: cover;
+    padding: 150px;
+    text-align: center;
 }
 
 .header h1{
-    position: absolute;
+    width: 500px;
     margin: auto;
-    top: 40%;
-    left: 40%;
-    padding: 10px;
-    border: white 2px solid;
-    background-color:black;
-    opacity: 0.6;
-    color: white;
+    padding: 20px 10px;
+    border: #fff 3px solid;
+    border-radius: 20px;
+    background: rgba(3, 3, 3, 0.4);
+    color: #fff;
 }
