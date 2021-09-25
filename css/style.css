@@ -5,7 +5,10 @@
   overflow: auto;
   padding: 0 40px;
 }*/
-
+:root{
+    --blue: #00AEEF;
+    --green: #A6CE39;
+}
 
 .navbar-brand{
     width: 150px;
@@ -13,26 +16,33 @@
     background: url("../img/logo.svg") no-repeat center;
     background-size: contain;
 }
+.navbar-nav{
+    position: absolute;
+   top: 125px;
+   right: 80px;
+}
 
 .nav-link{
     margin: 0 7px;
 }
 
-.nav-link h3{
-    color: blue;
-}
-
 .nav-item a{
   font-size: 1.5rem;
   font-weight: bold;
-    color: blue !important;
+    color: var(--blue) !important;
+}
+
+.nav-item a:hover{
+    color: #fff !important;
+    background: var(--blue);
+
 }
 
 .donate{
     display: block;
     position: absolute;
     top: 5px;
-    right: 25px;
+    right: 80px;
 }
 
 .header{
@@ -51,4 +61,14 @@
     border-radius: 20px;
     background: rgba(3, 3, 3, 0.4);
     color: #fff;
+}
+
+.statcard{
+    border: #000 2px solid;
+    text-align: center;
+}
+
+.donatebar{
+    background: var(--green);
+    height: 250px;
 }
