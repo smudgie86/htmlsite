@@ -10,65 +10,58 @@
     --green: #A6CE39;
 }
 
+h1,h2,h3,h4,h5,h6,p{
+    color: #333;
+}
+
 .navbar-brand{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background: url("../img/logo.svg") no-repeat center;
     background-size: contain;
 }
+/*
 .navbar-nav{
     position: absolute;
-   top: 125px;
+   top: 90px;
    right: 80px;
 }
-
+*/
 .nav-link{
     margin: 0 7px;
 }
 
 .nav-item a{
-  font-size: 1.5rem;
+  font-size: 14px;
   font-weight: bold;
     color: var(--blue) !important;
 }
 
-.nav-item a:hover{
+.nav-item a:hover, .nav-link.active{
     color: #fff !important;
     background: var(--blue);
 
 }
 
-.donate{
-    display: block;
-    position: absolute;
-    top: 5px;
-    right: 80px;
-}
+
 
 .header{
-    margin-top: 150px;
     background: url("../img/s02.jpg") no-repeat center;
     background-size: cover;
-    padding: 150px;
+    padding: 100px;
     text-align: center;
 }
 
 .header h1{
     width: 500px;
     margin: auto;
-    padding: 20px 10px;
-    border: #fff 3px solid;
+    padding: 30px 10px;
     border-radius: 20px;
     background: rgba(3, 3, 3, 0.4);
     color: #fff;
 }
 
-.statcard{
-    border: #000 2px solid;
-    text-align: center;
-}
-
 .donatebar{
     background: var(--green);
-    height: 250px;
+    text-align: center;
 }
