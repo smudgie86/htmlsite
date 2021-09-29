@@ -65,3 +65,12 @@ h1,h2,h3,h4,h5,h6,p{
     background: var(--green);
     text-align: center;
 }
+
+.leftPic{
+    background: var(--blue);
+    text-align: center;
+}
+
+.leftPic h2, .leftPic p{
+    color: #fff;
+}
