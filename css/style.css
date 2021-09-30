@@ -1,13 +1,30 @@
-/* Basics 
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 40px;
-}*/
+
 :root{
-    --blue: #00AEEF;
+    --blue: #39C1F4;
+    --blueHover: #0DB0ED;
     --green: #A6CE39;
+    --greenHover: #88AA2A;
+    --lightgrey: #e9ecef;
+}
+
+.btn-success{
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+.btn-primary{
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+
+.btn-success:hover{
+    background-color: var(--greenHover);
+    border-color: var(--greenHover);
+}
+
+.btn-primary:hover{
+    background-color: var(--blueHover);
+    border-color: var(--blueHover);
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -20,13 +37,7 @@ h1,h2,h3,h4,h5,h6,p{
     background: url("../img/logo.svg") no-repeat center;
     background-size: contain;
 }
-/*
-.navbar-nav{
-    position: absolute;
-   top: 90px;
-   right: 80px;
-}
-*/
+
 .nav-link{
     margin: 0 7px;
 }
@@ -42,8 +53,6 @@ h1,h2,h3,h4,h5,h6,p{
     background: var(--blue);
 
 }
-
-
 
 .header{
     background: url("../img/s02.jpg") no-repeat center;
@@ -62,15 +71,13 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .donatebar{
-    background: var(--green);
-    text-align: center;
+    background: var(--lightgrey);
 }
 
 .leftPic{
     background: var(--blue);
-    text-align: center;
 }
 
-.leftPic h2, .leftPic p{
-    color: #fff;
+.rightPic{
+    background: var(--green);
 }
