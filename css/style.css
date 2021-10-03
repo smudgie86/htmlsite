@@ -4,8 +4,21 @@
     --blueHover: #0DB0ED;
     --green: #A6CE39;
     --greenHover: #88AA2A;
-    --lightgrey: #e9ecef;
+    --lightblue: rgba(13,110,253,.25) ;
+    --lightgreen: rgba(168,211,55,0.7);
+
 }
+
+body{
+    font-family: Raleway, sans-serif;
+    color: #333;
+}
+
+.row, .stats{
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
 
 .btn-success{
     background-color: var(--green);
@@ -27,10 +40,6 @@
     border-color: var(--blueHover);
 }
 
-h1,h2,h3,h4,h5,h6,p{
-    color: #333;
-}
-
 .navbar-brand{
     width: 100px;
     height: 100px;
@@ -43,7 +52,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .nav-item a{
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
     color: var(--blue) !important;
 }
@@ -71,13 +80,13 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .donatebar{
-    background: var(--lightgrey);
+    background: var(--lightblue);
 }
 
 .leftPic{
-    background: var(--blue);
+    background: var(--lightblue);
 }
 
 .rightPic{
-    background: var(--green);
+    background: var(--lightgreen);
 }
