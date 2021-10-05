@@ -11,7 +11,7 @@
 
 body{
     font-family: Raleway, sans-serif;
-    color: #333;
+    color: #444;
 }
 
 .row, .stats{
@@ -41,8 +41,8 @@ body{
 }
 
 .navbar-brand{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background: url("../img/logo.svg") no-repeat center;
     background-size: contain;
 }
